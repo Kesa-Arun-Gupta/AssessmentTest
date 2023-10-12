@@ -46,6 +46,7 @@ public class LoginController {
 				{
 					if (rs.getString(3).equals(pass))
 					{
+						logger.info("Validate");
 						return "Home";
 					} 
 					else 
